@@ -1,0 +1,4 @@
+TODO
+ - figure out primers
+ - reflow was trimming first 10 bases
+ - reflow set no value for trunclenr, ive put 0 here, but its possible there is some other default
