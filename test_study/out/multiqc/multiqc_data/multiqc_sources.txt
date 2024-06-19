@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR12919600_1	/tmp/airflowtmpjpohfui9/work/b6/34cfac7840b3f8ab9ae064238b9e06/3/SRR12919600_1_fastqc.zip
+FastQC	all_sections	SRR12919600_2	/tmp/airflowtmpjpohfui9/work/b6/34cfac7840b3f8ab9ae064238b9e06/4/SRR12919600_2_fastqc.zip

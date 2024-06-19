@@ -1,0 +1,247 @@
+{
+    "report_data_sources": {
+        "FastQC": {
+            "all_sections": {
+                "SRR12919600_1": "/tmp/airflowtmpjpohfui9/work/b6/34cfac7840b3f8ab9ae064238b9e06/3/SRR12919600_1_fastqc.zip",
+                "SRR12919600_2": "/tmp/airflowtmpjpohfui9/work/b6/34cfac7840b3f8ab9ae064238b9e06/4/SRR12919600_2_fastqc.zip"
+            }
+        }
+    },
+    "report_general_stats_data": [
+        {
+            "SRR12919600_1": {
+                "percent_gc": 54.0,
+                "avg_sequence_length": 298.71857718086596,
+                "median_sequence_length": 301,
+                "total_sequences": 156956.0,
+                "percent_duplicates": 86.3585973138969,
+                "percent_fails": 40.0
+            },
+            "SRR12919600_2": {
+                "percent_gc": 55.0,
+                "avg_sequence_length": 298.723463900711,
+                "median_sequence_length": 301,
+                "total_sequences": 156956.0,
+                "percent_duplicates": 68.39942404240679,
+                "percent_fails": 50.0
+            }
+        }
+    ],
+    "report_general_stats_headers": [
+        {
+            "percent_duplicates": {
+                "title": "% Dups",
+                "description": "% Duplicate Reads",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "RdYlGn-rev",
+                "namespace": "FastQC",
+                "rid": "mqc-generalstats-fastqc-percent_duplicates",
+                "format": "{:,.1f}",
+                "colour": "55,126,184",
+                "hidden": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            },
+            "percent_gc": {
+                "title": "% GC",
+                "description": "Average % GC Content",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "PuRd",
+                "format": "{:,.0f}",
+                "namespace": "FastQC",
+                "rid": "mqc-generalstats-fastqc-percent_gc",
+                "colour": "55,126,184",
+                "hidden": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            },
+            "avg_sequence_length": {
+                "title": "Average Read Length",
+                "description": "Average Read Length (bp)",
+                "min": 0,
+                "suffix": " bp",
+                "scale": "RdYlGn",
+                "format": "{:,.0f}",
+                "hidden": true,
+                "namespace": "FastQC",
+                "rid": "mqc-generalstats-fastqc-avg_sequence_length",
+                "colour": "55,126,184",
+                "max": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 298.723463900711,
+                "dmin": 0.0
+            },
+            "median_sequence_length": {
+                "title": "Median Read Length",
+                "description": "Median Read Length (bp)",
+                "min": 0,
+                "suffix": " bp",
+                "scale": "RdYlGn",
+                "format": "{:,.0f}",
+                "hidden": true,
+                "namespace": "FastQC",
+                "rid": "mqc-generalstats-fastqc-median_sequence_length",
+                "colour": "55,126,184",
+                "max": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 301.0,
+                "dmin": 0.0
+            },
+            "percent_fails": {
+                "title": "% Failed",
+                "description": "Percentage of modules failed in FastQC report (includes those not plotted here)",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "Reds",
+                "format": "{:,.0f}",
+                "hidden": true,
+                "namespace": "FastQC",
+                "rid": "mqc-generalstats-fastqc-percent_fails",
+                "colour": "55,126,184",
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            },
+            "total_sequences": {
+                "title": "M Seqs",
+                "description": "Total Sequences (millions)",
+                "min": 0,
+                "scale": "Blues",
+                "modify": 1e-06,
+                "shared_key": "read_count",
+                "namespace": "FastQC",
+                "rid": "mqc-generalstats-fastqc-total_sequences",
+                "suffix": " M",
+                "format": "{:,.1f}",
+                "colour": "55,126,184",
+                "hidden": null,
+                "max": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "placement": 1000.0,
+                "dmax": 0.15695599999999998,
+                "dmin": 0.0
+            }
+        }
+    ],
+    "report_multiqc_command": "/usr/local/bin/multiqc --force --config multiqc_config.yml .",
+    "report_plot_data": {},
+    "report_saved_raw_data": {
+        "multiqc_fastqc": {
+            "SRR12919600_1": {
+                "Filename": "SRR12919600_1.gz",
+                "File type": "Conventional base calls",
+                "Encoding": "Sanger / Illumina 1.9",
+                "Total Sequences": 156956.0,
+                "Total Bases": "46.8 Mbp",
+                "Sequences flagged as poor quality": 0.0,
+                "Sequence length": "35-301",
+                "%GC": 54.0,
+                "total_deduplicated_percentage": 13.641402686103113,
+                "avg_sequence_length": 298.71857718086596,
+                "median_sequence_length": 301,
+                "basic_statistics": "pass",
+                "per_base_sequence_quality": "pass",
+                "per_sequence_quality_scores": "pass",
+                "per_base_sequence_content": "fail",
+                "per_sequence_gc_content": "fail",
+                "per_base_n_content": "pass",
+                "sequence_length_distribution": "warn",
+                "sequence_duplication_levels": "fail",
+                "overrepresented_sequences": "fail",
+                "adapter_content": "pass"
+            },
+            "SRR12919600_2": {
+                "Filename": "SRR12919600_2.gz",
+                "File type": "Conventional base calls",
+                "Encoding": "Sanger / Illumina 1.9",
+                "Total Sequences": 156956.0,
+                "Total Bases": "46.8 Mbp",
+                "Sequences flagged as poor quality": 0.0,
+                "Sequence length": "35-301",
+                "%GC": 55.0,
+                "total_deduplicated_percentage": 31.600575957593215,
+                "avg_sequence_length": 298.723463900711,
+                "median_sequence_length": 301,
+                "basic_statistics": "pass",
+                "per_base_sequence_quality": "fail",
+                "per_sequence_quality_scores": "pass",
+                "per_base_sequence_content": "fail",
+                "per_sequence_gc_content": "fail",
+                "per_base_n_content": "pass",
+                "sequence_length_distribution": "warn",
+                "sequence_duplication_levels": "fail",
+                "overrepresented_sequences": "fail",
+                "adapter_content": "pass"
+            }
+        },
+        "multiqc_general_stats": {
+            "SRR12919600_1": {
+                "FastQC_mqc-generalstats-fastqc-percent_duplicates": 86.3585973138969,
+                "FastQC_mqc-generalstats-fastqc-percent_gc": 54.0,
+                "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 298.71857718086596,
+                "FastQC_mqc-generalstats-fastqc-median_sequence_length": 301,
+                "FastQC_mqc-generalstats-fastqc-percent_fails": 40.0,
+                "FastQC_mqc-generalstats-fastqc-total_sequences": 156956.0
+            },
+            "SRR12919600_2": {
+                "FastQC_mqc-generalstats-fastqc-percent_duplicates": 68.39942404240679,
+                "FastQC_mqc-generalstats-fastqc-percent_gc": 55.0,
+                "FastQC_mqc-generalstats-fastqc-avg_sequence_length": 298.723463900711,
+                "FastQC_mqc-generalstats-fastqc-median_sequence_length": 301,
+                "FastQC_mqc-generalstats-fastqc-percent_fails": 50.0,
+                "FastQC_mqc-generalstats-fastqc-total_sequences": 156956.0
+            }
+        }
+    },
+    "config_analysis_dir_abs": [
+        "/tmp/airflowtmpjpohfui9/work/b6/34cfac7840b3f8ab9ae064238b9e06"
+    ],
+    "config_analysis_dir": [
+        "."
+    ],
+    "config_creation_date": "2024-06-11, 17:44 UTC",
+    "config_git_hash": null,
+    "config_intro_text": null,
+    "config_report_comment": "This report has been generated by the <a href=\"https://github.com/nf-core/ampliseq/releases/tag/2.9.0\" target=\"_blank\">nf-core/ampliseq</a> analysis pipeline. For information about how to interpret these results, please see the <a href=\"https://nf-co.re/ampliseq/2.9.0/docs/output\" target=\"_blank\">documentation</a>.\n",
+    "config_report_header_info": null,
+    "config_script_path": "/usr/local/lib/python3.11/site-packages/multiqc/utils",
+    "config_short_version": "1.21",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.21",
+    "config_output_dir": "/tmp/airflowtmpjpohfui9/work/b6/34cfac7840b3f8ab9ae064238b9e06"
+}
