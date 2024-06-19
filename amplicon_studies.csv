@@ -1,0 +1,6 @@
+studyName,studyPath
+test,/data/MicrobiomeDB/common/amplicon_sequencing/test_study
+toxo_gut,/data/MicrobiomeDB/common/amplicon_sequencing/toxo_gut
+ECAM,/data/MicrobiomeDB/common/amplicon_sequencing/EMP_10249_ECAM
+DailyBaby,/data/MicrobiomeDB/common/amplicon_sequencing/DailyBaby
+BeeMicrobiome,/data/MicrobiomeDB/common/amplicon_sequencing/EMP_1064_Bee_Microbiome
