@@ -1,0 +1,4 @@
+TODO
+ - figure out primers
+ - reflow was trimming first 10 bases
+ - figure out if we need/ can keep the groups col from sample_info.txt

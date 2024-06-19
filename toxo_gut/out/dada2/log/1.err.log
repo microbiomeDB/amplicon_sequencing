@@ -1,0 +1,17 @@
+112814500 total bases in 451258 reads from 15 samples will be used for learning the error rates.
+Initializing error rates to maximum possible estimate.
+selfConsist step 1 ...............
+   selfConsist step 2
+   selfConsist step 3
+   selfConsist step 4
+   selfConsist step 5
+Convergence after  5  rounds.
+102533340 total bases in 488254 reads from 9 samples will be used for learning the error rates.
+Initializing error rates to maximum possible estimate.
+selfConsist step 1 .........
+   selfConsist step 2
+   selfConsist step 3
+   selfConsist step 4
+   selfConsist step 5
+   selfConsist step 6
+Convergence after  6  rounds.

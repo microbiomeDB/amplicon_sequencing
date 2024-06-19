@@ -1,0 +1,4 @@
+TODO
+ - figure out primers
+ - reflow was trimming first 10 bases
+ - make sure the loss of this groups col from the og sample_info.txt file doesnt impact results

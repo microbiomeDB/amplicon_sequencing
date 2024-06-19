@@ -1,0 +1,4 @@
+TODO
+  - double check trunclenr. reflow left it empty, idk if that means 0 or default
+  - try to get primer sequences for cutadapt
+  - reflow just took off the first 10 bases looks like
