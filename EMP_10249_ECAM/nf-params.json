@@ -1,0 +1,13 @@
+{
+    "single_end": true,
+    "ignore_empty_input_files": true,
+    "trunclenf": 90,
+    "picrust": true,
+    "skip_qiime": true,
+    "skip_qiime_downstream": true,
+    "skip_barplot": true,
+    "skip_diversity_indices": true,
+    "skip_ancom": true,
+    "skip_report": true,
+    "skip_cutadapt": true
+}
